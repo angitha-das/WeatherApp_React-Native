@@ -118,6 +118,10 @@ export default class WeatherView extends Component {
         this.getCurrentLocationWeatherUpdate();
     }
 
+    getTextColor() {   
+        return (this.state.time>18)?'white':'black';
+    }
+
     render() {     
     const chosenTheme = (this.state.time>18) ? darkEveningStyle:lightMorningStyle;
   
@@ -168,17 +172,19 @@ export default class WeatherView extends Component {
                           marginTop: getStatusBarHeight(),
                         },
                         textInputContainer: {
-                          backgroundColor: 'white',
-                          borderTopColor: 'white',
-                          height: 45
+                          backgroundColor: 'transparent',
+                          borderTopColor: 'transparent',
+                          height: 45,
+                          borderBottomColor: this.getTextColor(),
                         },
                         textInput: {
+                          color: this.getTextColor(),
                           width:'100%',  
-                          color: 'black',
+                          backgroundColor:'transparent',
                           fontSize: 16,
                           borderRadius: 0,
                           justifyContent:'center',
-                          marginLeft:-8
+                          marginLeft:-8,
                         },
                         predefinedPlacesDescription: {
                           color: '#1faadb'
@@ -202,7 +208,7 @@ export default class WeatherView extends Component {
                     nearbyPlacesAPI='GooglePlacesSearch' // Which API to use: GoogleReverseGeocoding or GooglePlacesSearch
                     GoogleReverseGeocodingQuery={{
                     //     // available options for GoogleReverseGeocoding API : https://developers.google.com/maps/documentation/geocoding/intro
-                        key: 'AIzaSyBddNdcR_A3ByCrHRY9S4RjfePbw9uwP-I',
+                        key: 'GOOGLE_API_KEY',
                         language: 'en',
                         types: '(cities)' // default: 'geocode'
                         

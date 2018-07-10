@@ -52,7 +52,7 @@ export default StyleSheet.create({
         marginTop:dimen.height/16
     },
     searchIcon:{
-        color: 'black',
+        color: 'white',
         alignSelf:'center',
         marginLeft:8,
         marginRight:8,
