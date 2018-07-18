@@ -23,9 +23,11 @@ Android Studio
 Xcode
 
 Please go through the following blog if new to javascript.
+
 <a href="https://medium.com/the-react-native-log/a-brief-overview-of-es6-for-react-native-developers-15e7c68315da"> 
   
 We have a well defined starter kit for React-native from Facebook to install and build your first React Native app.
+
 <a href=https://facebook.github.io/react-native/docs/getting-started.html"> 
 
 There are 2 ways.
