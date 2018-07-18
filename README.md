@@ -4,6 +4,7 @@ Prerequisites:
 
 Node -
 Download the nvm install script via cURL:-
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 
 Install the latest version with :-  nvm install node
@@ -21,12 +22,11 @@ VsCode Extensions :-
 Android Studio
 Xcode
 
-
-Please go through https://medium.com/the-react-native-log/a-brief-overview-of-es6-for-react-native-developers-15e7c68315da 
-to get started with javascript.
-
-Follow https://facebook.github.io/react-native/docs/getting-started.html 
-to install and build your first React Native app.
+Please go through the following blog if new to javascript.
+<a href="https://medium.com/the-react-native-log/a-brief-overview-of-es6-for-react-native-developers-15e7c68315da"> 
+  
+We have a well defined starter kit for React-native from Facebook to install and build your first React Native app.
+<a href=https://facebook.github.io/react-native/docs/getting-started.html"> 
 
 There are 2 ways.
 I had followed steps under - Building projects with Native code in my Linux machine.
