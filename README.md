@@ -53,5 +53,21 @@ Refer NativeBase to style your apps - https://nativebase.io/kitchen-sink-app
 
 <img src="https://github.com/angitha-das/WeatherApp_React-Native/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202018-07-10%20at%2012.22.45.png" width=200px/> <img src="https://github.com/angitha-das/WeatherApp_React-Native/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202018-07-10%20at%2012.22.55.png" width=200px/> <img src="https://github.com/angitha-das/WeatherApp_React-Native/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202018-07-10%20at%2012.23.00.png" width=200px/>
 
+## Tutorials/References
 
+https://reactjs.org/tutorial/tutorial.html
+
+https://egghead.io/courses/the-beginner-s-guide-to-reactjs
+
+https://www.valentinog.com/blog/react-redux-tutorial-beginners/
+
+https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3
+
+https://www.raywenderlich.com/178012/react-native-tutorial-building-android-apps-javascript
+
+https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a
+
+https://www.gatsbyjs.org/tutorial/part-four/
+
+https://redux.js.org/advanced/example-reddit-api
 
