@@ -17,6 +17,8 @@ VsCode Extensions :-
             React Native Tools
             React-beautify
             React Native Snippet
+            ESLint
+            
 
 Android Studio & Xcode
 
