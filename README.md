@@ -14,6 +14,7 @@ Use the latest version with :-  `nvm use node`
 [Reference to install node](http://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/)
 
 IDE :- Visual Studio Code
+
 VsCode Extensions :- 
             Babel Javascript,
             React Native Tools,
@@ -21,8 +22,7 @@ VsCode Extensions :-
             React Native Snippet,
             ESLint
             
-
-Android Studio & Xcode
+Setup - Android Studio & Xcode
 
 [Please go through the following blog if new to javascript](https://medium.com/the-react-native-log/a-brief-overview-of-es6-for-react-native-developers-15e7c68315da)
 
@@ -41,6 +41,7 @@ I had followed steps under - Building projects with Native code.
 `react-native run-android` OR `react-native run-ios`
 
 Modify code and Press the R key twice OR (cmd+R) to reload to see your changes!
+
 For Developer Menu (Ctrl + M)/(Cmd+D) 
 
 [Refer NativeBase to style your apps](https://nativebase.io/kitchen-sink-app)
