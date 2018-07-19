@@ -4,19 +4,21 @@ Prerequisites:
 
 Node -
 Download the nvm install script via cURL:-
+
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
 
 Install the latest version with :- ` nvm install node`
+
 Use the latest version with :-  `nvm use node`
 
 [Reference to install node](http://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/)
 
 IDE :- Visual Studio Code
 VsCode Extensions :- 
-            Babel Javascript
-            React Native Tools
-            React-beautify
-            React Native Snippet
+            Babel Javascript,
+            React Native Tools,
+            React-beautify,
+            React Native Snippet,
             ESLint
             
 
@@ -31,8 +33,11 @@ There are 2 ways.
 I had followed steps under - Building projects with Native code.
 
 `npm install -g react-native-cli`
+
 `react-native init ProjectName`
+
 `cd ProjectName`
+
 `react-native run-android` OR `react-native run-ios`
 
 Modify code and Press the R key twice OR (cmd+R) to reload to see your changes!
